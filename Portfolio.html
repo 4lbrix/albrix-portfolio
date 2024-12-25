@@ -1,0 +1,515 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Keane Albrix Olegario | Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<div class="cheese" id="home">
+	<header>
+		<nav>
+		<h1 class="logo"><span>Port</span>folio</h1>
+			<ul>
+				<li><a href="#home">HOME</a></li>
+				<li><a href="#about">ABOUT</a></li>
+				<li><a href="#service">SERVICE</a></li>
+				<li><a href="#gallery">GALLERY</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+
+		</nav>
+			<script src="https://code.jquery.com/jquery-3.7.0.js">
+			</script>
+			<script type="text/javascript">
+				$(window).scroll(function(){
+					if($(window).scrollTop()){
+						$("nav").addClass("black");
+					}
+					else{
+						$("nav").removeClass("black");
+					}
+				})
+			
+			</script>
+	</header>
+
+		<div class="intro">
+			<h5>Hello, my name is</h5>
+			<div class="myName">
+				<h1>Keane Albrix Olegario</h1>
+				<h1 class="hover-h1"><span>Vanitas Ken</span></h1>
+			</div>
+			<h4>I am a  
+				<span class="role1"> 2D Animator</span>
+				<span class="role2"> Video Editor</span>
+				<span class="role3"> Storywriter</span>
+			</h4>
+			<!----------
+			<div class="connect">
+				<form>
+					<input type="email" name="email" id="email" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Let's Begin">
+				</form>
+		    </div>
+
+		    ------>
+		    <div class="socialintro">
+				<div class="socialIconsIntro">
+				<a href="https://www.facebook.com/kenbrix.olegario"><i class="fa-brands fa-facebook-f"></i></a>
+				
+
+				<a href="https://www.instagram.com/ken.brix/"><i class="fa-brands fa-instagram"></i></a>
+				
+				<a href="https://www.youtube.com/@chickenbrix1296/featured"><i class="fa-brands fa-youtube"></i></a>	
+				</div>
+			</div>
+			<div>
+				<div class="slider-wrapper">
+					<div class="slider">
+						<input type="radio" name="radio-btn" id="radio1">
+						<input type="radio" name="radio-btn" id="radio2">
+						<input type="radio" name="radio-btn" id="radio3">
+						<input type="radio" name="radio-btn" id="radio4">
+						<input type="radio" name="radio-btn" id="radio5">
+						
+						<div class="slide first">
+							<img src="slides/DND Bugbear.png" id="slide-1" alt="DND Bugbear">
+						</div>
+						<div class="slide">
+							<img src="slides/omae wa box.png" id="slide-2" alt="omae wa box">
+						</div>
+						<div class="slide">
+							<img src="slides/Samnu Post Card.png" id="slide-3" alt="Samnu Post Card">
+						</div>
+						<div class="slide">	
+							<img src="slides/murger.png" id="slide-4" alt="murger diet">
+						</div>
+						<div class="slide">
+							<img src="slides/THICC FOREST.png" id="slide-5" alt="THICC FOREST">
+						</div>
+						<!----auto nav---->
+						<div class="navigation-auto">
+							<div class="auto-btn1"></div>
+							<div class="auto-btn2"></div>
+							<div class="auto-btn3"></div>
+							<div class="auto-btn4"></div>
+							<div class="auto-btn5"></div>
+							
+						</div>
+					</div>
+					<div class="navigation-manual">
+						<label for="radio1" class="manual-btn"></label>
+						<label for="radio2" class="manual-btn"></label>
+						<label for="radio3" class="manual-btn"></label>
+						<label for="radio4" class="manual-btn"></label>
+						<label for="radio5" class="manual-btn"></label>
+					</div>
+
+				</div>
+
+				<script type="text/javascript">
+					var counter = 1;
+					setInterval(function(){
+						document.getElementById('radio' + counter).checked = true;
+						counter++;
+						if(counter > 5){
+							counter = 1;
+						}
+					}, 5000);
+				</script>
+
+
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+<!-------ABOUT SECTION------->
+	<section class="about" id="about">
+		<div class="about-main">
+			<img src="duckeane.png" alt="duckeane">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<p class="about-summary">An Information Technology student majoring in Animation and Graphic Design in PHINMA University of Pangasinan, aspiring to be part of the Animation/Film Industry. I am a 2D Animator willing to learn and adapt to improve my skills and knowledge. I make simplified video edits, portraits, collaborative storywriting, and 2D animations</p>
+
+				<p class="about-history">My passion for art traced back when I was just a child. Though lost the thrive to do so, coming back to my passion helps me put my mind at ease.<br> As I move forward, I learn to enjoy every step of my journey, at my own pace.</p>
+				<button class="about-button" type="button"><a href="#contact">Let's Talk</a></button>
+			</div>
+		</div>
+		
+	</section>
+
+<!-------SERVICE SECTION------->
+	<section class="service" id="service">
+		<h2 class="service-title">SERV<span>ICES</span></h2>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa fa-video-camera" aria-hidden="true"></i>
+				<h5>Video Editting</h5>
+				<div class="pre">
+					<p style="text-align: center;">Video Editting takes time and effort to do. Focusing on tone, music, theme, ambience, etc.</p>
+				</div>
+		</div>
+
+		<div class="card">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<h5>Portrait</h5>
+				<div class="pre">
+					<p style="text-align: center;">Making a portrait to solidify oneself as an artform. An art that is closer to life and vibrant with sublimity.</p>
+				</div>
+		</div>
+
+		<div class="card">
+				<i class="fa fa-film" aria-hidden="true"></i>
+				<h5>Animation</h5>
+				<div class="pre">
+					<p style="text-align: center;">Creating the illusion of motion, making images feel so alive and radiant with life.</p>
+				</div>
+		</div>
+
+		<div class="card">
+				<i class="fa-solid fa-book-open"></i>				
+				<h5>Collaborative Storytelling</h5>
+				<div class="pre">
+					<p style="text-align: center;">The art of weaving ideas, to let the imagination run wild. To create a worlds and events.</p>
+				</div>
+		</div>
+
+		</div>
+	</section>
+
+<!-------GALLERY SECTION------->
+
+	<section class="gallery" id="gallery">
+			<h2>Gal<span>lery</span></h2>
+
+
+			<div class="navbar">
+				<ul class="navbar-nav">
+
+				<li class="nav-item">
+					<button href="" class="nav-link artworks" id="artworks-nav" onclick="openartworks('artworks')">
+						<i class="fa-solid fa-paintbrush"></i>
+						<p class="link-text">ARTWORKS</p>
+					</button>
+				</li>
+
+				<li class="nav-item">
+					<button class="nav-link animation" id="animation-nav" onclick="openanimation('animation')">
+						<i class="fa-solid fa-video"></i>
+						<p class="link-text">ANIMATION</p>
+					</button>
+				</li>
+				<li class="nav-item">
+					<button class="nav-link gameassets" id="gameassets-nav" onclick="opengameassets('gameassets')">
+				<i class="fa-solid fa-gamepad"></i>
+						<p class="link-text">GAME ASSETS</p>
+					</button>
+				</li>
+				</ul>
+			</div>
+
+<!-------GALLERY ART SECTION------->
+
+		<div class="content">
+
+			<div class="menu">
+
+				<div class="tab-artworks" id="artworks">
+					<div class="kritart">
+						<img class="kritartwork" src="images/angeline.png" alt="angeline">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/attack-of-reengie.png" alt="attack-of-reengie">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/Agent jason and charles.png" alt="Agent Jason and Charles">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/ria at.png" alt="Adventure Ria Time">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/croppedshane.png" alt="Cropped Shane">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/hakdog.png" alt="Hakdog">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/thicc_forest.png" alt="Helluatio">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/KKKMemes.png" alt="Cry of Pugad Lawin... Memes">
+					</div>
+
+					<div class="kritart">
+						<img class="kritartwork" src="images/AntiDrugs.png" alt="AntiDrugs">
+					</div>
+
+					<div class="clearfix"></div>
+
+					<div id="myModal" class="modal">
+  						<span class="close">×</span>
+					  	<img class="modal-content" id="modalart">
+					  	<div id="caption"></div>
+					</div>
+				</div>
+			</div>
+
+			<script>
+			// Get the modal
+			var modal = document.getElementById('myModal');
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() { 
+			  modal.style.display = "none";
+			}
+
+			// Get all images and insert the clicked image inside the modal
+			// Get the content of the image description and insert it inside the modal image caption
+			var images = document.getElementsByClassName('kritartwork');
+			var modalImg = document.getElementById("modalart");
+			var i;
+			for (i = 0; i < images.length; i++) {
+			  images[i].onclick = function(){
+			    modal.style.display = "block";
+			    modalImg.src = this.src;
+			    captionText.innerHTML = this.nextElementSibling.innerHTML;
+			  }
+			}
+			</script>
+
+			<div class="menu">
+				<div class="tab-animation" id="animation">
+					<div class="kritanimation">
+						<video class="kritanim" controls loop src="animation/DNDBugbear.mp4" width= "333">
+						</video>
+						<p>DND Bugbear Beatdown</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls loop src="animation/kopiko.mp4" width= "333">
+						</video>
+						<p>Kopiko</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls src="animation/samnu opening v2.mp4" width= "333">
+						</video>
+						<p>Samnu: The Chaotic Cat Trailer</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls loop muted src="animation/.mailbox.mp4" width= "333">
+						</video>
+						<p>.mailbox</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls muted src="animation/just a normal day for red circle and blue square.mp4" width= "333"></video>
+						<p>just a normal day for red circle and blue square</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls muted src="animation/whatisanimation.mp4" width= "333"></video>
+						<p>What is Animation</p>
+					</div>
+
+					<div class="kritanimation">
+						<video class="kritanim" controls muted src="animation/jump.mp4" width= "333">
+						</video>
+						<p>Jump Over Me</p>
+					</div>
+
+						<div class="kritanimation">
+						<video class="kritanim" controls src="animation/hello.mp4" height = "250">
+						</video>
+						<p>Kakisayan</p>
+					</div>
+
+						<div class="kritanimation">
+						<video class="kritanim" controls muted src="animation/murger.mp4" width= "333">
+						</video>
+						<p>murger diet</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu">
+				<div class="tab-gameassets" id="gameassets">
+					<div class="kritassets" id="kritassets">
+						<video autoplay controls muted loop src="game assets/juan/Juan Dela Cruz Espada ng Katapangan.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/juan/juan dela cruz front attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/juan/juan dela cruz front walk.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/juan/juan dela cruz back attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/juan/Juan Dela Cruz Pana ng Karunungan.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/juan/juan ult.mp4" width= "250" height="auto"></video>
+
+
+						<video autoplay controls muted loop src="game assets/monsters/aswang(1).mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/aswang attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/aswang dog form.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/tikbalang.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/tikbalang attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/kapre v2 attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/manananggal attack.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/santelmo.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/black lady with orb.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/monsters/tiyanakwalk.mp4" width= "250" height="auto"></video>
+
+						<video autoplay controls muted loop src="game assets/towers/albularyo.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/towers/archer tower.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/towers/cauldron animation.mp4" width= "250" height="auto"></video>
+						<video autoplay controls muted loop src="game assets/towers/mortar.mp4" width= "250" height="auto"></video>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+			<script>
+
+				let vid = document.getElementsByClassName("kritanim"); 
+				let gif = document.getElementsByClassName("kritassets"); 
+
+				var videos = document.getElementsByTagName("video");
+
+				window.addEventListener("blur", function() {
+				    for (var i = 0; i < videos.length; ++i) {
+				        var video = videos[i];
+				        video.pause();
+				    }
+				});
+
+				function openartworks() {
+  				document.getElementById("artworks").style.opacity = 1;
+  				document.getElementById("animation").style.opacity = 0;
+  				document.getElementById("gameassets").style.opacity = 0;
+
+  				document.getElementById("artworks").style.transform = "translateX(0%)";
+  				document.getElementById("animation").style.transform = "translateX(100%)";
+  				document.getElementById("gameassets").style.transform = "translateX(100%)";
+
+				vid.pause(); 
+  				gif.pause();
+				}
+
+				function openanimation() {
+  				
+  				document.getElementById("artworks").style.opacity = 0;
+  				document.getElementById("animation").style.opacity = 1;
+  				document.getElementById("gameassets").style.opacity = 0;
+
+  				document.getElementById("artworks").style.transform = "translateX(100%)";
+  				document.getElementById("animation").style.transform = "translateX(0%)";
+  				document.getElementById("gameassets").style.transform = "translateX(100%)";
+
+  				vid.pause(); 
+  				gif.pause();
+				}
+
+				function opengameassets() {
+
+				document.getElementById("artworks").style.opacity = 0;
+  				document.getElementById("animation").style.opacity = 0;
+  				document.getElementById("gameassets").style.opacity = 1;
+  				
+  				document.getElementById("artworks").style.transform = "translateX(100%)";
+  				document.getElementById("animation").style.transform = "translateX(100%)";
+  				document.getElementById("gameassets").style.transform = "translateX(0%)";
+
+  				vid.pause(); 
+  				gif.play();
+				}
+			</script>
+		</section>
+
+<!-------CONTACT SECTION------->
+	<div class="contact" id="contact">
+		<div class="up">
+			<h2><span>CON</span>TACT <span>ME</span></h2>
+			<p>Contact me via phone or email:</p>
+		</div>
+
+		<div class="container">
+			<div class="contact-info">
+				<div class="infobox">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<div class="infotext">
+						<h3>ADDRESS</h3>
+						<p>Mangatarem, Pangasinan</p>
+					</div>
+				</div>
+				<div class="infobox">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					<div class="infotext">
+						<h3>PHONE</h3>
+						<p>09162048170</p>
+					</div>
+				</div>
+				<div class="infobox">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+					<div class="infotext">
+						<h3>EMAIL</h3>
+						<p>keane.sanchez.olegario@gmail.com</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="contact-form">
+				<h2>SEND MESSAGE</h2>
+				<form action="https://formspree.io/f/mdorkppq" method="POST">
+				<div class="input-box">
+					<input type="text" name="Name" required placeholder="Your Name">
+				</div>
+				<div class="input-box">
+					<input type="text" name="Email" required placeholder="Your Email">
+				</div>
+				<div class="input-box">
+					<textarea name="Message" placeholder="Your Message" required></textarea>
+				</div>
+				<div class="input-box">
+					<input type="submit" name="" value="Send">
+				</div>
+				</form>
+			</div>
+		</div>
+		<!----<audio controls loop src="Tokyo Shock.mp3"></audio>---->
+	</div>
+	<footer>
+		<div class="social">
+			<div class="socialIcons">
+			<a href="https://www.facebook.com/kenbrix.olegario"><i class="fa-brands fa-facebook-f"></i></a>
+			
+
+			<a href="https://www.instagram.com/ken.brix/"><i class="fa-brands fa-instagram"></i></a>
+			
+			<a href="https://www.youtube.com/@chickenbrix1296/featured"><i class="fa-brands fa-youtube"></i></a>	
+			</div>
+
+		</div>
+		<div class="copyright">
+		<p>Copyright &copy; 2023. Keane Albrix Olegario</p>
+		</div>
+	</footer>
+
+</body>
+</html>
