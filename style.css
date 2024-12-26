@@ -517,7 +517,7 @@ h4{
 	margin: 0 1.5rem;
 }
 .navbar:hover{
-	width: 12rem;
+	width: 100%;
 }
 .navbar:hover .link-text{
 	display: block;
