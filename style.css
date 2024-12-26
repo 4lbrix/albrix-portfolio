@@ -478,9 +478,9 @@ h4{
 
 .navbar{
 	position: absolute;
-	z-index: 1;
+	z-index: 20;
 	margin-top: 0;
-	background-color: #202020;
+	background-color: #8B0000;
 	transition: width 200ms ease;
 }
 .navbar-nav{
